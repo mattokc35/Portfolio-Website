@@ -7,7 +7,6 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 const Sidebar = () => (
   <>
     <div className="nav-bar">
-
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
           <FontAwesomeIcon icon={faHome} color="#4d4d4e"></FontAwesomeIcon>
@@ -36,7 +35,11 @@ const Sidebar = () => (
             rel="noreferrer"
             href="https://www.linkedin.com/in/matthew-chen-54b972148/"
           >
-            <FontAwesomeIcon className="fa-2xl" icon={faLinkedin} color="#4d4d4e" />
+            <FontAwesomeIcon
+              className="fa-2xl"
+              icon={faLinkedin}
+              color="#4d4d4e"
+            />
           </a>
         </li>
         <li>
@@ -45,7 +48,11 @@ const Sidebar = () => (
             rel="noreferrer"
             href="https://github.com/mattokc35"
           >
-            <FontAwesomeIcon className="fa-2xl" icon={faGithub} color= "#4d4d4e" />
+            <FontAwesomeIcon
+              className="fa-2xl"
+              icon={faGithub}
+              color="#4d4d4e"
+            />
           </a>
         </li>
       </ul>

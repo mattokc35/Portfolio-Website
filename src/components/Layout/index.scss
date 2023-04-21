@@ -128,13 +128,13 @@
   }
   .icons {
     display: flex;
-    color:#ADD8E6;
+    color: #add8e6;
     position: absolute;
     left: 51%;
     animation: pulse 1.5s;
     top: 27%;
-    width:30px;
-    p{
+    width: 30px;
+    p {
       font-style: 22px;
       font-size: 15px;
       animation: pulse 1.5s;
@@ -143,14 +143,13 @@
       font-family: sans-serif;
       font-weight: 300;
       min-width: fit-content;
-      margin-right: 10px
-
+      margin-right: 10px;
     }
-    a{
+    a {
       animation: pulse 1.5s;
       animation-delay: pulse 1.6s;
-      color:#ADD8E6;
-      margin-right: 15px
+      color: #add8e6;
+      margin-right: 15px;
     }
   }
 
