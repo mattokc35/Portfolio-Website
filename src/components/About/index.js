@@ -15,7 +15,7 @@ const About = () => {
                     I previously graduated (Spring 2022) from Texas A&M University with a degree in Computer Science. 
                 </p>
                 <p>
-                    I am interested in all aspects of software development, and always looking improve my skills and gain new ones!  Some technologies I am familiar with are: 
+                    I am interested in all aspects of software development, and I am always looking to improve my skills and gain new ones!  Some technologies I am familiar with are: 
                 </p>
                 <p>
                    
