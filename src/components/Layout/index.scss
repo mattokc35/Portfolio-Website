@@ -1,0 +1,221 @@
+.page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.top-tags {
+  bottom: auto;
+  top: 35px;
+}
+
+.tags {
+  color: #add8e6;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0;
+  left: 120px;
+  font-size: 18px;
+  font-family: "La Belle Aurore";
+}
+
+.bottom-tag-html {
+  margin-left: -20px;
+}
+
+.container {
+  justify-content: space-between;
+  width: 100%;
+  will-change: contents;
+  height: 90%;
+  min-height: 566px;
+  position: absolute;
+  opacity: 0;
+  top: 5%;
+  margin: 0 auto;
+  z-index: 1;
+  transform-style: preserve-3d;
+  animation: fadeIn 1s forwards;
+  animation-delay: 1s;
+}
+
+.about-page,
+.contact-page {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    transform: translateY(-50%);
+    width: 35%;
+    vertical-align: middle;
+    display: inline;
+    max-height: 90%;
+
+    h1 {
+      font-size: 53px;
+      font-family: "La Belle Aurore";
+      color: #add8e6;
+      font-weight: 400;
+      margin-top: 0;
+      position: relative;
+      margin-bottom: 40px;
+      left: 10px;
+    }
+
+    p {
+      font-style: 22px;
+      font-size: 15px;
+      color: #fff;
+      font-family: sans-serif;
+      font-weight: 300;
+      min-width: fit-content;
+      animation: pulse 1s;
+
+      &:nth-of-type(1) {
+        animation-delay: 1.1s;
+      }
+      &:nth-of-type(2) {
+        animation-delay: 1.2s;
+      }
+      &:nth-of-type(3) {
+        animation-delay: 1.3s;
+      }
+      &:nth-of-type(4) {
+        animation-delay: 1.4s;
+      }
+    }
+    ul {
+      font-style: 22px;
+      font-size: 15px;
+      color: #fff;
+      font-family: sans-serif;
+      font-weight: 300;
+      min-width: fit-content;
+      animation: pulse 1s;
+      &:nth-of-type(1) {
+        animation-delay: 1.5s;
+      }
+
+      li {
+        font-style: 13px;
+        color: #fff;
+        font-family: sans-serif;
+        font-weight: 300;
+        min-width: fit-content;
+        animation: pulse 1.5s;
+      }
+    }
+  }
+  .resume-section {
+    animation: pulse 1.5s;
+    display: flex;
+    position: absolute;
+    animation-delay: 1.7s;
+    left: 51%;
+    top: 5%;
+    display: inline;
+    vertical-align: middle;
+    z-index: 99999;
+    p {
+      animation: pulse 1.5s;
+      animation-delay: pulse 1.6s;
+      font-style: 22px;
+      font-size: 50px;
+      color: #add8e6;
+      font-family: "La Belle Aurore";
+      font-weight: 300;
+    }
+  }
+  .icons {
+    display: flex;
+    color:#ADD8E6;
+    position: absolute;
+    left: 51%;
+    animation: pulse 1.5s;
+    top: 27%;
+    width:30px;
+    p{
+      font-style: 22px;
+      font-size: 15px;
+      animation: pulse 1.5s;
+      animation-delay: pulse 1.6s;
+      color: #fff;
+      font-family: sans-serif;
+      font-weight: 300;
+      min-width: fit-content;
+      margin-right: 10px
+
+    }
+    a{
+      animation: pulse 1.5s;
+      animation-delay: pulse 1.6s;
+      color:#ADD8E6;
+      margin-right: 15px
+    }
+  }
+
+  .contact-form {
+    width: 100%;
+    margin-top: 20px;
+    ul {
+      padding: 0;
+      margin: 0;
+
+      li {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        margin-bottom: 10px;
+        overflow: hidden;
+        display: block;
+        position: relative;
+        opacity: 0;
+        animation: fadeInUp 2s 2s;
+        animation-fill-mode: forwards;
+        clear: both;
+      }
+      li.half {
+        width: 49%;
+        margin-left: 2%;
+        float: left;
+        clear: none;
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+    input[type="text"],
+    input[type="email"] {
+      width: 100%;
+      border: 0;
+      background: #115173;
+      height: 50px;
+      font-size: 16px;
+      color: #fff;
+      padding: 0 10px;
+      box-sizing: border-box;
+    }
+    textarea {
+      width: 100%;
+      border: 0;
+      background: #115173;
+      height: 50px;
+      font-size: 16px;
+      color: #fff;
+      padding: 20px;
+      min-height: 150px;
+      box-sizing: border-box;
+    }
+    .flat-button {
+      color: #add8e6;
+      background: 0 0;
+      font: 11px;
+      letter-spacing: 3px;
+      text-decoration: none;
+      padding: 8px 10px;
+      border: 1px solid #add8e6;
+      float: right;
+      border-radius: 4px;
+    }
+  }
+}
